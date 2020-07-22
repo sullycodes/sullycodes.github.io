@@ -23,7 +23,7 @@ Now, on your computer:
 
 Now that you have set the repo up locally and remotely it is now time to get them in sync:
 
-1. In your terminal in your local directory, type git **remote add origin git@github.com:username/project_name**
+1. In your terminal in your local directory, type **git remote add origin https://github.com/username/project_name**
 2. Next, type **git push -u origin master**
 
 That's it! You should now be all set!
