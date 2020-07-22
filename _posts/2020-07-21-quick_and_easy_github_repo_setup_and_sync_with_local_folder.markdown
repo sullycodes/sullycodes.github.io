@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Quick and Easy GitHub Repo Setup and Sync with Local Folder"
-date:       2020-07-22 00:14:51 +0000
+date:       2020-07-21 20:14:52 -0400
 permalink:  quick_and_easy_github_repo_setup_and_sync_with_local_folder
 ---
 
@@ -19,14 +19,14 @@ Now, on your computer:
 1. Create a new directory (ex, mkdir new_proj or rails new new_proj)
 2. Type **git init**
 3. After writing a little code, type **git add .**
-4. Type **git commit -m "first commit"** - you can call it whatever, but first commit is pretty common
+4. Type **git commit -m "first commit"** - you can call it whatever, but "first commit" is pretty common just to get the ball rolling and make sure everything is working
 
 Now that you have set the repo up locally and remotely it is now time to get them in sync:
 
 1. In your terminal in your local directory, type git **remote add origin git@github.com:username/project_name**
 2. Next, type **git push -u origin master**
 
-That's it! Yous hould now be all set!
+That's it! You should now be all set!
 
 The next commit you will again lead with this flow: git add . > git commit > git push
 
